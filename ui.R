@@ -23,7 +23,7 @@ ui <- navbarPage(
     # App title ----
     titlePanel(div(
       windowTitle = "YoutubeTrend",
-      img(src = "yt0.png", width = "100%", class = "bg"),
+      img(src = "yt0.PNG", width = "100%", class = "bg"),
     )),
     
     tags$br(),
@@ -48,7 +48,7 @@ ui <- navbarPage(
             
             checkboxGroupInput(
               "checkCategory",
-              label = "Select University",
+              label = "Select Category",
               choices = list(
                 "Travel and Events" = "Travel and Events",
                 "Sports" = "Sports",
