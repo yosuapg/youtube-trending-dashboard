@@ -38,4 +38,4 @@ Motivasi saya adalah supaya dashboard ini dapat membantu orang lain untuk menget
 Kode dalam project ini ditulis menggunakan Shiny pada R. Sedangkan dokumentasi pada web aplikasi dan website dipublish menggunakan R Markdown.
 
 **Full code** tersedia secara gratis pada: 
-[Github](https://github.com/LashaGoch/R-Shiny-App-Graduate-Employment-Singapore)
+[Github](https://github.com/yosuapg/youtube-trending-dashboard)
