@@ -1,0 +1,41 @@
+---
+title: <font size="6"> About Project</font> 
+author: 
+output:
+  html_document:
+    theme: flatly
+    highlight: pygments
+    number_sections: false
+    self_contained: true
+    lib_dir: libs
+    fig_caption: true
+    toc: false
+    toc_float: false
+
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(warning=FALSE)
+```
+
+Dewasa ini saya yakin tidak ada yang tidak mengenal Youtube. Youtube adalah salah satu social media terpopuler. Ketika kita berbicara mengenai social media related to videos, saya pikir kita semua akan langsung berpikir mengenai Youtube. Ketika kita ingin menemukan audio dan visua-based information dalam bentuk video, hampir selalu seseorang akan merekomendasikan kita untuk pergi ke Youtube. 
+
+Dalam dashboard ini, saya mau berusaha menyajikan insight mengenai video trending di Youtube pada periode **November 2017 sampai Januari 2018**. 
+
+Ada beberapa pertanyaan yang saya ingin jawab menggunakan dashboard ini:
+
+* Channel apa yang paling populer?
+* Bagaimana Persebaran likes vs dislikes ratio?
+* Bagaimana perbandingan kategori untuk trending videos?
+
+Dalam penyajiannya, saya menyediakan summary dan daily breakdown supaya pengguna dashboard dapat melihat secara overview dan juga detail.
+
+Motivasi saya adalah supaya dashboard ini dapat membantu orang lain untuk mengetahui tren video seperti apa yang mempunyai rating tertinggi pada platform Youtube.
+
+
+## The Code of Project 
+
+Kode dalam project ini ditulis menggunakan Shiny pada R. Sedangkan dokumentasi pada web aplikasi dan website dipublish menggunakan R Markdown.
+
+**Full code** tersedia secara gratis pada: 
+[Github](https://github.com/LashaGoch/R-Shiny-App-Graduate-Employment-Singapore)
